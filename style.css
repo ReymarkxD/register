@@ -1,0 +1,33 @@
+body{
+	margin:0;
+	padding:0;
+	background:gray;
+	background-image: bg2.png;
+}
+nav{
+	with:100%;
+	background:black;
+	overflow: auto;
+}
+ul	{
+	padding:0;
+	margin:0 0 0 150px;
+	list-style:none;
+}
+li {
+	float:right;
+}
+nav a{
+	width:100px;
+	display:block;
+	padding:20px 16px;
+	text-decoration: none;
+	font-family:arial;
+	color:#f2f2f2;
+	text-align: center;
+}
+nav a:hover{
+	background:purple;
+	transition:0.5s;
+	text-transform: uppercase;
+}
